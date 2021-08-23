@@ -1,6 +1,7 @@
-﻿using System;
+﻿using Gaxar77.NewEditor;
+using System;
 
-namespace WindowsNewFileContextMenuEditor
+namespace Gaxar77.NewEditor
 {
     public class FileTypeModel
     {

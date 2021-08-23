@@ -1,4 +1,4 @@
-﻿namespace WindowsNewFileContextMenuEditor
+﻿namespace Gaxar77.NewEditor
 {
     partial class FileTypeForm
     {

@@ -1,4 +1,4 @@
-﻿namespace WindowsNewFileContextMenuEditor
+﻿namespace Gaxar77.NewEditor
 {
     partial class MainForm
     {
@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.lvFileTypes = new System.Windows.Forms.ListView();
             this.btnModifyFileType = new System.Windows.Forms.Button();
             this.btnRemoveFileType = new System.Windows.Forms.Button();
             this.btnAddFileType = new System.Windows.Forms.Button();
             this.btnAbout = new System.Windows.Forms.Button();
-            this.lvFileTypes = new System.Windows.Forms.ListView();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -51,6 +51,18 @@
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "File Types";
+            // 
+            // lvFileTypes
+            // 
+            this.lvFileTypes.HideSelection = false;
+            this.lvFileTypes.Location = new System.Drawing.Point(7, 27);
+            this.lvFileTypes.MultiSelect = false;
+            this.lvFileTypes.Name = "lvFileTypes";
+            this.lvFileTypes.Size = new System.Drawing.Size(420, 410);
+            this.lvFileTypes.TabIndex = 4;
+            this.lvFileTypes.UseCompatibleStateImageBehavior = false;
+            this.lvFileTypes.View = System.Windows.Forms.View.Details;
+            this.lvFileTypes.SelectedIndexChanged += new System.EventHandler(this.lvFileTypes_SelectedIndexChanged);
             // 
             // btnModifyFileType
             // 
@@ -98,18 +110,6 @@
             this.btnAbout.UseVisualStyleBackColor = true;
             this.btnAbout.Click += new System.EventHandler(this.btnAbout_Click);
             // 
-            // lvFileTypes
-            // 
-            this.lvFileTypes.HideSelection = false;
-            this.lvFileTypes.Location = new System.Drawing.Point(7, 27);
-            this.lvFileTypes.MultiSelect = false;
-            this.lvFileTypes.Name = "lvFileTypes";
-            this.lvFileTypes.Size = new System.Drawing.Size(420, 410);
-            this.lvFileTypes.TabIndex = 4;
-            this.lvFileTypes.UseCompatibleStateImageBehavior = false;
-            this.lvFileTypes.View = System.Windows.Forms.View.Details;
-            this.lvFileTypes.SelectedIndexChanged += new System.EventHandler(this.lvFileTypes_SelectedIndexChanged);
-            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -121,7 +121,7 @@
             this.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.MaximizeBox = false;
             this.Name = "MainForm";
-            this.Text = "New File Context Menu Editor";
+            this.Text = "Windows Explorer New Menu - Current User";
             this.Load += new System.EventHandler(this.MainForm_Load);
             this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);

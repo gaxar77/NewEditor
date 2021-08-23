@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{5361CC55-6022-4948-B61D-4F0B1E9CE705}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>WindowsNewFileContextMenuEditor</RootNamespace>
-    <AssemblyName>newfilemenuedit</AssemblyName>
+    <RootNamespace>Gaxar77.NewEditor</RootNamespace>
+    <AssemblyName>NewEditor</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -80,6 +80,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -90,7 +91,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <None Include="NewFileMenuEditorSetup.nsi">
+    <None Include="NewEditorSetup.nsi">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
@@ -99,6 +100,6 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>call "C:\Program Files (x86)\NSIS\makensis.exe" NewFileMenuEditorSetup.nsi</PostBuildEvent>
+    <PostBuildEvent>call "C:\Program Files (x86)\NSIS\makensis.exe" NewEditorSetup.nsi</PostBuildEvent>
   </PropertyGroup>
 </Project>

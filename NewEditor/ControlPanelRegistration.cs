@@ -1,6 +1,6 @@
 ﻿using Microsoft.Win32;
 
-namespace WindowsNewFileContextMenuEditor
+namespace Gaxar77.NewEditor
 {
     class ControlPanelRegistration
     {
@@ -29,10 +29,10 @@ namespace WindowsNewFileContextMenuEditor
             using (var clsidKey = Registry.ClassesRoot.CreateSubKey(
                 ClsidKeyName, true))
             {
-                clsidKey.SetValue("", "New File Context Menu");
-                clsidKey.SetValue("LocalizedString", "New File Context Menu");
-                clsidKey.SetValue("InfoTip", "Add/remove items in the new file context menu.");
-                clsidKey.SetValue("System.ApplicationName", "Gaxar.NewFileContextMenuEditor");
+                clsidKey.SetValue("", "Windows Explorer New Menu");
+                clsidKey.SetValue("LocalizedString", "Windows Explorer New Menu");
+                clsidKey.SetValue("InfoTip", "Add/remove items in the Windows Explorer new menu for the currently logged in user.");
+                clsidKey.SetValue("System.ApplicationName", "Gaxar.NewEditor");
                 clsidKey.SetValue("System.ControlPanel.Category", "0");
 
                 using (var commandKey = clsidKey.CreateSubKey(

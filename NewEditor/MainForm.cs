@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Windows.Forms;
 
-namespace WindowsNewFileContextMenuEditor
+namespace Gaxar77.NewEditor
 {
     public partial class MainForm : Form
     {
@@ -105,7 +105,7 @@ namespace WindowsNewFileContextMenuEditor
 
         private void btnAbout_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Created by Guido Arbia (g.arbia777@gmail.com)", "About");
+            MessageBox.Show("A control panel applet allowing you to modify the New File menu in Windows Explorer for the currently logged in user. Created by Guido Arbia (g.arbia777@gmail.com)", "About NewEdit 1.0");
         }
 
         private void btnModifyFileType_Click(object sender, EventArgs e)

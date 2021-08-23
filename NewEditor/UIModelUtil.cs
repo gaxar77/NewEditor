@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WindowsNewFileContextMenuEditor
+namespace Gaxar77.NewEditor
 {
     public static class UIModelUtil
     {

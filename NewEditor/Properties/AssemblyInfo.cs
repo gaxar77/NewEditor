@@ -1,15 +1,16 @@
-﻿using System.Reflection;
+﻿using System.Resources;
+using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("WindowsNewFileContextMenuEditor")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("NewEditor")]
+[assembly: AssemblyDescription("A control pannel applet allowing you to modify the new file menu in Windows Explorer for the currently loggin user.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("HP Inc.")]
-[assembly: AssemblyProduct("WindowsNewFileContextMenuEditor")]
+[assembly: AssemblyCompany("Gaxar77")]
+[assembly: AssemblyProduct("NewEditor")]
 [assembly: AssemblyCopyright("Copyright © HP Inc. 2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +21,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("5361cc55-6022-4948-b61d-4f0b1e9ce705")]
+[assembly: Guid("8E4FA425-C8CD-456D-8685-52B35E885DA0")]
 
 // Version information for an assembly consists of the following four values:
 //
@@ -34,3 +35,4 @@ using System.Runtime.InteropServices;
 // [assembly: AssemblyVersion("1.0.*")]
 [assembly: AssemblyVersion("1.0.0.0")]
 [assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: NeutralResourcesLanguage("en")]

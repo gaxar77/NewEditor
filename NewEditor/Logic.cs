@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using Microsoft.Win32;
 using System;
 
-namespace WindowsNewFileContextMenuEditor
+namespace Gaxar77.NewEditor
 {
     public class FileTypeDetails
     {

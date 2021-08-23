@@ -7,7 +7,7 @@ using System.Windows.Forms;
 using System.Security.Principal;
 using System.Diagnostics;
 
-namespace WindowsNewFileContextMenuEditor
+namespace Gaxar77.NewEditor
 {
     static class Program
     {
